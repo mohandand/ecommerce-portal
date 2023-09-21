@@ -3,11 +3,8 @@ import './index.scss'
 import Home from './routes/home/home.component';
 import Navigation from './routes/navigation/navigation.component'
 import Authenication from './routes/authenitcation/authenication.component';
+import Shop from './routes/shop/shop.component'
 const App = () => {
-
-  const Shop = () => {
-    return <div>I am Shop</div>
-  }
   return (
     <Routes>
       <Route path='/' element={<Navigation/>}>
